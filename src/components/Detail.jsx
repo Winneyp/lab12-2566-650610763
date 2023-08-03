@@ -7,7 +7,7 @@ export const Detail = () => {
   const { lang } = useContext(LangContext);
   return (
     <p className="text-center" style={{ color: theme.fgColor }}>
-      {lang.name == "light"
+      {theme.detail == "light"
         ? lang.detail.lightActivated
         : lang.detail.darkActivated}
 
